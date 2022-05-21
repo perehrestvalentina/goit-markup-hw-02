@@ -37,6 +37,9 @@
 .cursors {
   display: flex;
 }
+.logo-color {
+  color: var(--accente-color);
+}
 
 /*------------------------------------HEADER--------------------*/
 
@@ -55,7 +58,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accente-color);
+  color: var(--second-title-color);
   text-transform: u;
 }
 
@@ -175,7 +178,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accente-color);
+  color: var(--main-title-color);
 }
 .footer-address {
   color: var(--main-btn-color);
