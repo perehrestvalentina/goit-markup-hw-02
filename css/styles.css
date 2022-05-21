@@ -181,7 +181,7 @@
   color: var(--main-title-color);
 }
 .footer-address {
-  color: var(--main-btn-color);
+  color: var(--main-title-color);
 }
 
 .footer-mailto {
