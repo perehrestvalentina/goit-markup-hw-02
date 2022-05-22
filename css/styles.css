@@ -7,7 +7,7 @@
   --accente-color: #2196f3;
 }
 .body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #757575;
 }
@@ -19,6 +19,7 @@
 .link {
   text-decoration: none;
 }
+
 .top-tex {
   font-size: 14px;
   line-height: 1.71;
@@ -40,7 +41,6 @@
 .logo-color {
   color: var(--accente-color);
 }
-
 /*------------------------------------HEADER--------------------*/
 
 .header-link,
@@ -51,6 +51,9 @@
   letter-spacing: 0.02em;
   color: #212121;
 }
+.color {
+  color: var(--accente-color);
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -59,7 +62,6 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  text-transform: u;
 }
 
 .header-link:hover,
@@ -78,9 +80,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accente-color);
   color: var(--main-btn-color);
@@ -146,7 +145,6 @@
   color: var(--second-title-color);
 }
 .about-work {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -161,7 +159,6 @@
   color: var(--second-title-color);
 }
 .projects-sub-title {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--third-title-color);
@@ -175,12 +172,14 @@
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
 .footer-address {
+  font-style: normal;
   color: var(--main-title-color);
 }
 
