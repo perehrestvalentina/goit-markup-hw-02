@@ -4,9 +4,10 @@
   --main-title-color: #ffffff;
   --second-title-color: #212121;
   --third-title-color: #757575;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
   --accente-color: #2196f3;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #757575;
@@ -73,7 +74,9 @@
 /*------------------------------------HERO--------------------*/
 .hero-btn:focus,
 .hero-btn:hover {
-  color: var(--main-btn-color);
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-btn {
   font-family: inherit;
@@ -83,6 +86,8 @@
   letter-spacing: 0.06em;
   background-color: var(--accente-color);
   color: var(--main-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero {
   background-color: #2f303a;
@@ -183,18 +188,17 @@
   color: var(--main-title-color);
 }
 
-.footer-mailto {
-  color: var(--third-title-color);
-}
-
-.footer-tel {
-  color: var(--third-title-color);
-}
 .footer-mailto:hover,
 .footer-mailto:focus,
 .footer-tel:hover,
-.footer-tel:focus,
+.footer-tel:focus {
+  color: var(--footer-link-color);
+}
 .footer-address:hover,
 .footer-address:focus {
-  color: var(--accente-color);
+  color: var(--main-btn-color);
+}
+.footer-mailto,
+.footer-tel {
+  color: var(--footer-link-color);
 }
